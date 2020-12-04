@@ -1,0 +1,30 @@
+body{
+    background: #c850c0;
+    background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
+    background: -o-linear-gradient(45deg, #4158d0, #c850c0);
+    background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
+    background: linear-gradient(45deg, #4158d0, #c850c0);
+}
+.btn-primary{
+    color: white;
+    background-color: #36304a;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 5px;
+    border-style: none;
+}
+.btn-secondary{
+    color: white;
+    background-color: #36304a;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 5px;;
+}
+.btn-primary:hover{
+    color: #BF50C1;
+    background-color: #36304a;
+}
+.btn-secondary:hover{
+    color: #BF50C1;
+    background-color: #36304a;
+}

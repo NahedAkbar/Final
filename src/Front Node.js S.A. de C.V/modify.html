@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar de datos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="modify.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/modify.js"></script>
+
+</head>
+<body>
+    
+    <div class="conteiner">
+        <div class="row mt-5">
+            <div class="col-6 offset-3">
+                <h1>Modificar</h1>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-6 offset-3">
+                <div class="form-group">
+                    <label for="mensaje">Agregar los Datos del Empleado a Modificar</label>
+                </div>
+                <div class="form-group data">
+                    <label for="input_name">Nombre</label>
+                    <input type="text" class="form-control" id="input_name" >
+                        
+                    <label for="input_lastName">Apellido</label>
+                    <input type="text" class="form-control" id="input_lastName">
+                                
+                    <label for="input_mail">Correo</label>
+                    <input type="email" class="form-control" id="input_mail">
+                    
+                    <label for="input_position">Telefono</label>
+                    <input type="text" class="form-control" id="input_phone">
+                                
+                    <label for="input_position">Cargo</label>
+                    <input type="text" class="form-control" id="input_position">
+                                    
+                    <label for="input_password">Contraseña</label>
+                    <input type="password" class="form-control" id="input_password">
+                </div>
+            </div>
+            <div class="d-flex justify-content-between">
+                    <button class="btn btn-primary" >Actualizar</button>
+                    <button class="btn btn-secondary" >Regresar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
